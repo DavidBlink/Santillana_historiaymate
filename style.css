@@ -1792,13 +1792,12 @@ content: "\f063";
     text-align: left;
     width: 100%;
     padding: 5px;
-    border: 2px solid #906da6;
     border-radius: 20px 20px 0px 0px;
     font-size: 1.6rem;;
 }
 .bck-box.bck-box-32 .bck-title:before {
     content: " ";
-    background: url(imagenes/cervatillo1.png);
+    background: url(imagenes/ciervo-derecha.png);
     background-repeat: no-repeat;
     background-size: contain;
     padding: 43px;
