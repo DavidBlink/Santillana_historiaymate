@@ -20,6 +20,7 @@
 				{ name: 'Titu morado flecha', element: 'h3', attributes: { 'class': 'bck-title14'} },
 				{ name: 'Titulo gris', element: 'h3', attributes: { 'class': 'bck-title8'} },
 				{ name: 'blanco fondo verde claro', element: 'h3', attributes: { 'class': 'bck-title4'} },
+				{ name: 'paso gris', element: 'h3', attributes: { 'class': 'bck-title7'} },
 				{ name: 'paso naranja', element: 'h3', attributes: { 'class': 'bck-title12'} },
 				{ name: 'paso morado', element: 'h3', attributes: { 'class': 'bck-title32'} },
 				{ name: 'paso verde', element: 'h3', attributes: { 'class': 'bck-title33'} },
@@ -28,7 +29,6 @@
 				{ name: 'paso rosa', element: 'h3', attributes: { 'class': 'bck-title40'} },
 				{ name: 'Saber hacer', element: 'h3', attributes: { 'class': 'bck-title24'} },
 				{ name: 'demuestra-morado', element: 'h3', attributes: { 'class': 'bck-title23'} },
-				{ name: 'Morado Fondo blanco', element: 'h3', attributes: { 'class': 'bck-title16'} },
 				{ name: 'form ciervoybuitre', element: 'h3', attributes: { 'class': 'bck-title28'} },
 				{ name: 'epa', element: 'h3', attributes: { 'class': 'bck-title30'} },
 				{ name: 'obj derecha titulo', element: 'h3', attributes: { 'class': 'bck-title37'} },
@@ -36,19 +36,27 @@
 
 				{ name: 'morado', element: 'span', attributes: { 'class': 'bck-morado'} },
 				{ name: 'azul claro', element: 'span', attributes: { 'class': 'bck-azulclaro'} },
+				{ name: 'Énfasis Naranja', element: 'span', attributes: { 'class': 'bck-enfasis-naranja'} },
+				{ name: 'azul', element: 'span', attributes: { 'class': 'bck-azul'} },
+				{ name: 'rojo', element: 'span', attributes: { 'class': 'bck-rojo'} },
+				{ name: 'rojo', element: 'span', attributes: { 'class': 'bck-rojo'} },
+				{ name: 'circulo naranja', element: 'span', attributes: { 'class': 'bck-naranja'} },
+				{ name: 'circulo verde', element: 'span', attributes: { 'class': 'bck-circuloverde'} },
+				{ name: 'circulo rojo', element: 'span', attributes: { 'class': 'bck-circulorojo'} },
+
 
 				
 				
 				{ name: 'Lis Ordenada', element: 'ol', attributes: { 'class': 'bck-ol' } },
 				{ name: 'Lis naranja', element: 'ol', attributes: { 'class': 'bck-ol-3' } },
-				/*Lis naranja borde*/
+				{ name: 'Lis naranja borde', element: 'ol', attributes: { 'class': 'bck-ol-2' } },
 				{ name: 'Lis minuscula naranja', element: 'ol', attributes: { 'class': 'bck-ol-6' } },
-				/*Lis mayuscula naranja*/
+				{ name: 'Lis mayuscula naranja', element: 'ol', attributes: { 'class': 'bck-ol-1' } },
 				{ name: 'Lis morado', element: 'ol', attributes: { 'class': 'bck-ol-7' } },
-				/*Lis morado numero*/
-				/*Lis morado borde*/
+				{ name: 'Lis morado borde', element: 'ol', attributes: { 'class': 'bck-ol-4' } },
+				{ name: 'Lis morado numero', element: 'ol', attributes: { 'class': 'bck-ol-5' } },
 				{ name: 'Lis minuscula morado', element: 'ol', attributes: { 'class': 'bck-ol-8' } },
-				/*Lis mayuscula morado*/
+				{ name: 'Lis mayuscula morado', element: 'ol', attributes: { 'class': 'bck-ol-9' } },
 
 
 				{ name: 'Lista Desordenada', element: 'ul', attributes: { 'class': 'bck-ul'} },
@@ -60,13 +68,13 @@
 
 
 
-				
-
 				{ name: 'Caja 1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-1' } },
 				{ name: 'Caja bordetop morado', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-4' } },
 				{ name: 'Caja desafio morado', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-29' } },
 				{ name: 'Caja Actividades morado', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-26' } },
-				/*Caja título gris*/
+				{ name: 'Caja título gris', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-2' } },
+				{ name: 'titu morado Fondo blanco', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-15' } },
+				{ name: 'titu formacion Fondo blanco', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-32' } },
 				{ name: 'Caja comprensión', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-8' } },
 				{ name: 'Caja resumen naranja', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-9' } },
 				{ name: 'Caja imagen', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-11' } },
@@ -89,6 +97,10 @@
 				{ name: 'Celda naranja', element: 'td', attributes: { 'class': 'bck-td-5' } },
 				{ name: 'Celda azul', element: 'td', attributes: { 'class': 'bck-td-2' } },
 				{ name: 'Celda morado', element: 'td', attributes: { 'class': 'bck-td-1' } },
+				{ name: 'Celda azul-claro', element: 'td', attributes: { 'class': 'bck-td-3' } },
+				{ name: 'Celda azul-claro2', element: 'td', attributes: { 'class': 'bck-td-6' } },
+				{ name: 'Celd borde abajo', element: 'td', attributes: { 'class': 'bck-td-4' } },
+
 
 				
 				{ name: 'Desplegable', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'Santillana_historiaymate_demo-dropdown' } },
