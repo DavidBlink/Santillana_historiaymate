@@ -1,162 +1,104 @@
+/* JAVASCRIPT Santillana_historiaymate_demo*/
+
 (function (blink) {
 	'use strict';
 
-	var santillana_demoStyle = function () {
+	var Santillana_historiaymate_demoStyle = function () {
 			blink.theme.styles.basic.apply(this, arguments);
 		},
 		page = blink.currentPage;
 
-	santillana_demoStyle.prototype = {
-		bodyClassName: 'content_type_clase_santillana_demo',
+	Santillana_historiaymate_demoStyle.prototype = {
+		bodyClassName: 'content_type_clase_Santillana_historiaymate_demo',
 		ckEditorStyles: {
-			name: 'santillana_demo',
+			name: 'Santillana_historiaymate_demo',
 			styles: [
 				
-				{ name: 'Flecha verde', element: 'h3', attributes: { 'class': 'bck-title4'} },
+
 				{ name: 'Flecha morado', element: 'h3', attributes: { 'class': 'bck-title13'} },
-				{ name: 'Flecha rojo', element: 'h3', attributes: { 'class': 'bck-title14'} },
-				{ name: 'Flecha azul', element: 'h3', attributes: { 'class': 'bck-title15'} },
-				{ name: 'titulo verde', element: 'h3', attributes: { 'class': 'bck-title5'} },
-				{ name: 'titulo morado', element: 'h3', attributes: { 'class': 'bck-title11'} },
-				{ name: 'titulo rojo', element: 'h3', attributes: { 'class': 'bck-title16'} },
-				{ name: 'titulo azul', element: 'h3', attributes: { 'class': 'bck-title17'} },
-				{ name: 'titulo naranja', element: 'h3', attributes: { 'class': 'bck-title3'} },
-				{ name: 'titulo gris', element: 'h3', attributes: { 'class': 'bck-title8'} },
-				{ name: 'titulo fondo rojo', element: 'h3', attributes: { 'class': 'bck-title42'} },
-				{ name: 'explora', element: 'h3', attributes: { 'class': 'bck-title6'} },
-				{ name: 'explora rojo', element: 'h3', attributes: { 'class': 'bck-title43'} },
-				{ name: 'paso gris', element: 'h3', attributes: { 'class': 'bck-title7'} },
+				{ name: 'Titulo morado', element: 'h3', attributes: { 'class': 'bck-title11'} },
+				{ name: 'Titu morado flecha', element: 'h3', attributes: { 'class': 'bck-title14'} },
+				{ name: 'Titulo gris', element: 'h3', attributes: { 'class': 'bck-title8'} },
+				{ name: 'blanco fondo verde claro', element: 'h3', attributes: { 'class': 'bck-title4'} },
 				{ name: 'paso naranja', element: 'h3', attributes: { 'class': 'bck-title12'} },
 				{ name: 'paso morado', element: 'h3', attributes: { 'class': 'bck-title32'} },
 				{ name: 'paso verde', element: 'h3', attributes: { 'class': 'bck-title33'} },
 				{ name: 'paso azul', element: 'h3', attributes: { 'class': 'bck-title34'} },
 				{ name: 'paso violeta', element: 'h3', attributes: { 'class': 'bck-title39'} },
 				{ name: 'paso rosa', element: 'h3', attributes: { 'class': 'bck-title40'} },
-				{ name: 'pie de foto', element: 'h3', attributes: { 'class': 'bck-title9'} },
 				{ name: 'Saber hacer', element: 'h3', attributes: { 'class': 'bck-title24'} },
-				{ name: 'Saber hacer2', element: 'h3', attributes: { 'class': 'bck-title25'} },
-				{ name: 'revisa-naranja1', element: 'h3', attributes: { 'class': 'bck-title10'} },
-				{ name: 'revisa-naranja2', element: 'h3', attributes: { 'class': 'bck-title18'} },
-				{ name: 'revisa-azul', element: 'h3', attributes: { 'class': 'bck-title19'} },
-				{ name: 'demuestra-verde', element: 'h3', attributes: { 'class': 'bck-title20'} },
-				{ name: 'demuestra-naranja', element: 'h3', attributes: { 'class': 'bck-title21'} },
-				{ name: 'demuestra-azul', element: 'h3', attributes: { 'class': 'bck-title22'} },
 				{ name: 'demuestra-morado', element: 'h3', attributes: { 'class': 'bck-title23'} },
-				{ name: 'relaciona', element: 'h3', attributes: { 'class': 'bck-title26'} },
-				{ name: 'fondo verde', element: 'h3', attributes: { 'class': 'bck-title31'} },
-				{ name: 'argumentar azul', element: 'h3', attributes: { 'class': 'bck-title27'} },
-				{ name: 'argumentar verde', element: 'h3', attributes: { 'class': 'bck-title35'} },
+				{ name: 'Morado Fondo blanco', element: 'h3', attributes: { 'class': 'bck-title16'} },
 				{ name: 'form ciervoybuitre', element: 'h3', attributes: { 'class': 'bck-title28'} },
-				{ name: 'Pasado al presente', element: 'h3', attributes: { 'class': 'bck-title29'} },
 				{ name: 'epa', element: 'h3', attributes: { 'class': 'bck-title30'} },
-				{ name: 'Titulo Actividades', element: 'h3', attributes: { 'class': 'bck-title36'} },
 				{ name: 'obj derecha titulo', element: 'h3', attributes: { 'class': 'bck-title37'} },
-				{ name: 'obj derecha verde', element: 'h3', attributes: { 'class': 'bck-title38'} },
-				{ name: 'obj derecha rojo', element: 'h3', attributes: { 'class': 'bck-title41'} },
 				
-				
-				
-							
 
-				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis'} },
-				{ name: 'Énfasis Naranja', element: 'span', attributes: { 'class': 'bck-enfasis-naranja'} },
-				{ name: 'Versalitas', element: 'span', attributes: { 'class': 'bck-versalitas'} },
-				{ name: 'verde', element: 'span', attributes: { 'class': 'bck-verde1'} },
-				{ name: 'subrayado verde', element: 'span', attributes: { 'class': 'bck-verde2'} },
-				{ name: 'subrayado rojo', element: 'span', attributes: { 'class': 'bck-subrojo'} },
 				{ name: 'morado', element: 'span', attributes: { 'class': 'bck-morado'} },
-				{ name: 'fondo coral', element: 'span', attributes: { 'class': 'bck-coral'} },
-				{ name: 'azul', element: 'span', attributes: { 'class': 'bck-azul'} },
-				{ name: 'rojo', element: 'span', attributes: { 'class': 'bck-rojo'} },
-				{ name: 'circulo naranja', element: 'span', attributes: { 'class': 'bck-naranja'} },
-				{ name: 'circulo verde', element: 'span', attributes: { 'class': 'bck-circuloverde'} },
-				{ name: 'circulo rojo', element: 'span', attributes: { 'class': 'bck-circulorojo'} },
 				{ name: 'azul claro', element: 'span', attributes: { 'class': 'bck-azulclaro'} },
-				{ name: 'verde desafio', element: 'span', attributes: { 'class': 'bck-verdedesafio'} },
-				{ name: 'sombreado', element: 'span', attributes: { 'class': 'bck-sombreado'} },
-				{ name: 'enfasis gris', element: 'span', attributes: { 'class': 'bck-gris'} },
-				{ name: 'Explora-aprende azul', element: 'span', attributes: { 'class': 'bck-fondoazul'} },
-				{ name: 'derecha título', element: 'span', attributes: { 'class': 'bck-titulopequeno'} },
-				{ name: 'subtítulo-pie', element: 'span', attributes: { 'class': 'bck-subtitulo'} },
+
 				
 				
-				
-				{ name: 'Lista Ordenada', element: 'ol', attributes: { 'class': 'bck-ol' } },
-				{ name: 'Lista Ordenada 2', element: 'ol', attributes: { 'class': 'bck-ol-2' } },
-				{ name: 'Lista naranja', element: 'ol', attributes: { 'class': 'bck-ol-3' } },
-				{ name: 'Lista verde', element: 'ol', attributes: { 'class': 'bck-ol-4' } },
-				{ name: 'Lista morado', element: 'ol', attributes: { 'class': 'bck-ol-7' } },
-				{ name: 'Lista roja', element: 'ol', attributes: { 'class': 'bck-ol-9' } },
-				{ name: 'Lista azulclaro', element: 'ol', attributes: { 'class': 'bck-ol-10' } },
-				{ name: 'Lista letra verde', element: 'ol', attributes: { 'class': 'bck-ol-5' } },
-				{ name: 'Lista letra naranja', element: 'ol', attributes: { 'class': 'bck-ol-6' } },
-				{ name: 'Lista letra morado', element: 'ol', attributes: { 'class': 'bck-ol-8' } },
-				{ name: 'Lista letra rojo', element: 'ol', attributes: { 'class': 'bck-ol-11' } },
-				
-				
+				{ name: 'Lis Ordenada', element: 'ol', attributes: { 'class': 'bck-ol' } },
+				{ name: 'Lis naranja', element: 'ol', attributes: { 'class': 'bck-ol-3' } },
+				/*Lis naranja borde*/
+				{ name: 'Lis minuscula naranja', element: 'ol', attributes: { 'class': 'bck-ol-6' } },
+				/*Lis mayuscula naranja*/
+				{ name: 'Lis morado', element: 'ol', attributes: { 'class': 'bck-ol-7' } },
+				/*Lis morado numero*/
+				/*Lis morado borde*/
+				{ name: 'Lis minuscula morado', element: 'ol', attributes: { 'class': 'bck-ol-8' } },
+				/*Lis mayuscula morado*/
+
+
 				{ name: 'Lista Desordenada', element: 'ul', attributes: { 'class': 'bck-ul'} },
 				{ name: 'Lista Des verde', element: 'ul', attributes: { 'class': 'bck-ul-2'} },
-				{ name: 'Lista Desordenada 3', element: 'ul', attributes: { 'class': 'bck-ul-3'} },
-				{ name: 'Lista Des amarilla', element: 'ul', attributes: { 'class': 'bck-ul-4'} },
-				{ name: 'Lista Des blanca', element: 'ul', attributes: { 'class': 'bck-ul-5'} },
-				{ name: 'Lista Des morado', element: 'ul', attributes: { 'class': 'bck-ul-6'} },
-				{ name: 'Lista Des azul claro', element: 'ul', attributes: { 'class': 'bck-ul-9'} },
 				{ name: 'Lista Des naranja', element: 'ul', attributes: { 'class': 'bck-ul-10'} },
-				{ name: 'Lista Des rojo', element: 'ul', attributes: { 'class': 'bck-ul-7'} },
-				{ name: 'Lista Cuadrada rojo', element: 'ul', attributes: { 'class': 'bck-ul-8'} },
+				{ name: 'Lista Des morado', element: 'ul', attributes: { 'class': 'bck-ul-6'} },
+				{ name: 'Lista Des amarilla', element: 'ul', attributes: { 'class': 'bck-ul-4'} },
+				{ name: 'Lista Cuadrada morado', element: 'ul', attributes: { 'class': 'bck-ul-8'} },			
+
+
+
 				
+
 				{ name: 'Caja 1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-1' } },
-				{ name: 'Caja marron', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-2' } },
-				{ name: 'Caja blanca', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-14' } },
-				{ name: 'Caja fondo color', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-3' } },
-				{ name: 'Caja Activaverde', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-4' } },
-				{ name: 'Caja Activaazul', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-5' } },
-				{ name: 'Caja Activamorado', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-6' } },
-				{ name: 'Caja Activarojo', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-15' } },
-				{ name: 'Caja Activarojo2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-32' } },
-				{ name: 'Caja queverde', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-18' } },
-				{ name: 'Caja queazul', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-19' } },
-				{ name: 'Caja quemorado', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-20' } },
-				{ name: 'Caja querojo', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-21' } },
-				{ name: 'Caja materiales', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-7' } },
+				{ name: 'Caja bordetop morado', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-4' } },
+				{ name: 'Caja desafio morado', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-29' } },
+				{ name: 'Caja Actividades morado', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-26' } },
+				/*Caja título gris*/
 				{ name: 'Caja comprensión', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-8' } },
 				{ name: 'Caja resumen naranja', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-9' } },
-                                { name: 'Caja saber más', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-10' } },
-				{ name: 'Caja escucha verde', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-22' } },
 				{ name: 'Caja imagen', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-11' } },
-				{ name: 'Caja azul', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-12' } },
+				{ name: 'Caja materiales', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-7' } },
+				{ name: 'Caja saber más', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-10' } },
 				{ name: 'Caja formacion-ciervo', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-13' } },
 				{ name: 'Caja formacion-ciervo2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-16' } },
 				{ name: 'Caja formacion-buitre', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-17' } },
 				{ name: 'Caja form-ciervoybuitre', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-24' } },
-				{ name: 'Fondo azul mate', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-23' } },
 				{ name: 'Caja bocadillo', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-25' } },
-				{ name: 'Caja Actividades', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-26' } },
-				{ name: 'Caja Relaciona', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-27' } },
-				{ name: 'Caja desafio rojo', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-28' } },
-				{ name: 'Caja desafio verde', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-29' } },
-				{ name: 'Caja peq azul', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-30' } },
-				{ name: 'Caja bordes rojo', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-31' } },
-				
-				{ name: 'Tabla', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table'} },
-				{ name: 'Tabla verde', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-2'} },
-				{ name: 'Tabla azul', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-3'} },
-				{ name: 'Tabla rojo', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-4'} },
-				{ name: 'Celda', element: 'td', attributes: { 'class': 'bck-td'} },
-				{ name: 'Celda verde', element: 'td', attributes: { 'class': 'bck-td-1' } },
-				{ name: 'Celda azul', element: 'td', attributes: { 'class': 'bck-td-2' } },
-				{ name: 'Celda rojo', element: 'td', attributes: { 'class': 'bck-td-5' } },
-				{ name: 'Celda azul-claro', element: 'td', attributes: { 'class': 'bck-td-3' } },
-				{ name: 'Celda azul-claro2', element: 'td', attributes: { 'class': 'bck-td-6' } },
-				{ name: 'Celd borde abajo', element: 'td', attributes: { 'class': 'bck-td-4' } },
 
-				{ name: 'Desplegable', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'santillana_demo-dropdown' } },
-				{ name: 'Desplegable 2', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'santillana_demo-dropdown-2' } },
-				{ name: 'Desplegable 3 rojo', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'santillana_demo-dropdown-3' } },
+
+
+				{ name: 'Tabla', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table'} },
+				{ name: 'Tabla naranja', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-4'} },
+				{ name: 'Tabla azul', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-3'} },
+				{ name: 'Tabla morado', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-2'} },
+
+				{ name: 'Celda', element: 'td', attributes: { 'class': 'bck-td'} },
+				{ name: 'Celda naranja', element: 'td', attributes: { 'class': 'bck-td-5' } },
+				{ name: 'Celda azul', element: 'td', attributes: { 'class': 'bck-td-2' } },
+				{ name: 'Celda morado', element: 'td', attributes: { 'class': 'bck-td-1' } },
+
 				
+				{ name: 'Desplegable', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'Santillana_historiaymate_demo-dropdown' } },
+				{ name: 'Desplegable morado', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'Santillana_historiaymate_demo-dropdown-2' } },
+
+
 				{ name: 'Icono Antes', element: 'span', attributes: { 'class': 'icon icon-antes' } },
 				{ name: 'Icono Durante', element: 'span', attributes: { 'class': 'icon icon-durante' } },
 				{ name: 'Icono Despues', element: 'span', attributes: { 'class': 'icon icon-despues' } }
+				
 
 
 			]
@@ -246,7 +188,7 @@
 					'</div>';
 
 			$navbarBottom
-				.attr('class', 'santillana_demo-navbar')
+				.attr('class', 'Santillana_historiaymate_demo-navbar')
 				.wrapInner('<div class="navbar-content"></div>')
 				.find('ol')
 					.before(dropDown)
@@ -408,7 +350,7 @@
 
 		animateNavbarOnScroll: function () {
 			if (!blink.isApp) return;
-			var $navbar = $('.santillana_demo-navbar');
+			var $navbar = $('.Santillana_historiaymate_demo-navbar');
 			var lastScrollTop = 0;
 			$('.js-slider-item').scroll(function () {
 				var scrollTop = $(this).scrollTop();
@@ -418,14 +360,14 @@
 		},
                 
                 changeHighBar: function () {
-                    if($('.santillana_demo-navbar').length>0 && $('.navbar').length>0){
-                        blink.theme.setTopByHeight('.navbar', '.santillana_demo-navbar');
+                    if($('.Santillana_historiaymate_demo-navbar').length>0 && $('.navbar').length>0){
+                        blink.theme.setTopByHeight('.navbar', '.Santillana_historiaymate_demo-navbar');
                     }
                 }
 	};
 
-	santillana_demoStyle.prototype = _.extend({}, new blink.theme.styles.basic(), santillana_demoStyle.prototype);
+	Santillana_historiaymate_demoStyle.prototype = _.extend({}, new blink.theme.styles.basic(), Santillana_historiaymate_demoStyle.prototype);
 
-	blink.theme.styles['santillana_demo'] = santillana_demoStyle;
+	blink.theme.styles['Santillana_historiaymate_demo'] = Santillana_historiaymate_demoStyle;
 
 })( blink );
