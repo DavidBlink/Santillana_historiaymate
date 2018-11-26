@@ -39,7 +39,6 @@
 				{ name: 'Énfasis Naranja', element: 'span', attributes: { 'class': 'bck-enfasis-naranja'} },
 				{ name: 'azul', element: 'span', attributes: { 'class': 'bck-azul'} },
 				{ name: 'rojo', element: 'span', attributes: { 'class': 'bck-rojo'} },
-				{ name: 'rojo', element: 'span', attributes: { 'class': 'bck-rojo'} },
 				{ name: 'circulo naranja', element: 'span', attributes: { 'class': 'bck-naranja'} },
 				{ name: 'circulo verde', element: 'span', attributes: { 'class': 'bck-circuloverde'} },
 				{ name: 'circulo rojo', element: 'span', attributes: { 'class': 'bck-circulorojo'} },
