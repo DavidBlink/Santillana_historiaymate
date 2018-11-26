@@ -1115,25 +1115,6 @@ body:not(.android) .slider-control:not([disabled]):not(.disabled):hover {
          margin-top: 0px;
     }
 
-/*LISTA ORDENADA 1*/ 
-
-#actividad .content .texto_curso .bck-ol-1 li,
-#actividad .content .workspace ol li .bck-ol-1 li {
-       counter-increment: bck-li-counter 1;
-        position: relative;
-}
-
-
-#actividad .content .texto_curso .bck-ol-1 li:before,
-#actividad .content .cke_contents .bck-ol-1 li:before,
-#actividad .popover-content .bck-ol-1 li:before,
-#actividad .content .workspace ol li .bck-ol-1 li:before {
-    content: counter(bck-li-counter)" ";
-    position: absolute;
-    width: 38px;
-    text-align: right;
-    color: #9665AB;
-}
 
 /*Lista naranja borde*/
 
@@ -1171,6 +1152,7 @@ body:not(.android) .slider-control:not([disabled]):not(.disabled):hover {
     margin-left: -37px;
     color: #e4a336;
     border-radius: 8px 8px 0px 8px;
+    font-size: 1.8rem;
 }
 
 /*lista naranja*/
@@ -1205,6 +1187,7 @@ body:not(.android) .slider-control:not([disabled]):not(.disabled):hover {
     margin-left: -37px;
     color: #fff;
     border-radius: 8px 8px 0px 8px;
+    font-size: 1.8rem;
 }
 
 
@@ -1241,6 +1224,7 @@ body:not(.android) .slider-control:not([disabled]):not(.disabled):hover {
     margin-left: -37px;
     color: #fff;
     border-radius: 8px 8px 0px 8px;
+    font-size: 1.8rem;
 }
 
 
@@ -1372,6 +1356,7 @@ body:not(.android) .slider-control:not([disabled]):not(.disabled):hover {
     margin-left: -37px;
     color: #9e61a4;
     border-radius: 8px 8px 0px 8px;
+    font-size: 1.8rem;
 }
 
 
@@ -1393,7 +1378,7 @@ body:not(.android) .slider-control:not([disabled]):not(.disabled):hover {
 #actividad .content .workspace ol li .bck-ol-8 li {
     position: relative;
     z-index: 0;
-        margin-left: 20px;
+    margin-left: 20px;
 }
 
 #actividad .content .cke_contents .bck-ol-8 li:before,
@@ -1425,7 +1410,7 @@ body:not(.android) .slider-control:not([disabled]):not(.disabled):hover {
 #actividad .content .workspace ol li .bck-ol-9 li {
     position: relative;
     z-index: 0;
-        margin-left: 20px;
+    margin-left: 20px;
 }
 
 #actividad .content .cke_contents .bck-ol-9 li:before,
