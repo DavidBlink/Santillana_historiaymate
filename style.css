@@ -39,6 +39,14 @@ body {
 }
 
 
+
+#actividad .carousel-inner .item-container {
+    font-family: HelveticaNeueLTStd-Roman;
+}
+
+
+
+
 /*paginacion*/
 
 .pags{
@@ -119,7 +127,7 @@ a:hover, a:active, a:focus {
     font-weight: 700;
     padding: 5px 10px 10px 20px;
     height: auto;
-    background-color: #3aaa35;
+    background-color: #8965a7;
 }
 
 #indice .unit-content .material {
@@ -152,6 +160,15 @@ input, button, select, textarea {
     font-size: 2.0rem;
     font-weight: bold;
 }
+
+#indice .units ul li.active:not(.disabled), body:not(.isTablet) #indice .units ul li:hover:not(.disabled), #indice .units ul li:focus:not(.disabled) {
+    background: #8965a7;
+}
+
+body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover {
+    background: #8965a7;
+}
+
 
 /**/
 
@@ -383,7 +400,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
     height: 82px;
     left: 0;
     z-index: 100;
-    background-color: #3aaa35;
+    background-color: #8965a7;
 }
 
 body.is_app .Santillana_historiaymate_demo-navbar {
@@ -480,7 +497,7 @@ body.is_app .Santillana_historiaymate_demo-navbar.ocultar {
 }
 
 .content_type_clase_Santillana_historiaymate_demo .Santillana_historiaymate_demo-navbar .navbar-content h2 #courseIndex {
-    background-color: orange;
+    background-color: #e4a336;
     font-size: 4rem;
     color: white;
     display: inline-block;
@@ -502,7 +519,7 @@ body.is_app .Santillana_historiaymate_demo-navbar.ocultar {
     margin-left: 10px;
     display: inline-block;
     color: #ffffff;
-    background-color: #33a32e;
+    background-color: #7d4ea4;
     border-radius: 10px;
     text-align: center;
     padding: 1px 6px 1px 6px;
@@ -557,7 +574,7 @@ body.is_app .Santillana_historiaymate_demo-navbar.ocultar {
 }
 
 body:not(.android) .slider-control:not([disabled]):not(.disabled):hover {
-    color:#3aaa35;
+    color: #8965a7;
 }
 
 
