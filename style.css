@@ -111,7 +111,7 @@ a {
 }
 
 a:hover, a:active, a:focus {
-    color: #3aaa35;
+    color: #8965a7;
 }
 
 .zoom_flag_img {
@@ -333,7 +333,7 @@ fieldset[disabled] .content_type_clase_Santillana_historiaymate_demo .slide_main
 #indice .units ul li.active:not(.disabled),
 body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 #indice .units ul li:focus:not(.disabled) {
-    background: #3aaa35;
+    background: #8965a7;
 }
 
 #indice .units ul li:not(.add) a .title {
@@ -453,7 +453,6 @@ body.is_app .Santillana_historiaymate_demo-navbar.ocultar {
 
 .content_type_clase_Santillana_historiaymate_demo .Santillana_historiaymate_demo-navbar .dropdownTemas {
     position: relative;
-    /*background-color: #3aaa35;*/
     padding-left: 6%;
     display: inline-block;
     float: left;
