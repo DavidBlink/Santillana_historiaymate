@@ -780,31 +780,27 @@ content: "\f063";
 
 /*Titu morado flecha*/
 
-.bck-title14{
-        color: #B44B9C;
+.bck-title14 {
+    color: #AA228C;
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: bold;
     display: inline-block;
     position: relative;
+    padding-left: 30px;
 }
 
 .bck-title14:before {
-content: "\f061";
+    content: "\f061";
     font-family: FontAwesome;
     display: inline-block;
-    color: #e30613;
+    color: #AA228C;
     padding: 0px;
     width: 24px;
     height: 24px;
     position: absolute;
-    left: 15px;
+    left: 0px;
     text-align: center;
 }
-
-
-
-
-
 
 /*titulo morado*/
 
@@ -813,8 +809,6 @@ content: "\f061";
     font-weight: 600;
     color: #9665AB;
 }
-
-
 
 /*paso gris*/
 
@@ -893,7 +887,6 @@ content: "\f061";
     border-radius: 10px 10px 10px 10px;
     font-size: 2rem;
 }
-
 
 
 /*titulo gris*/
@@ -1714,18 +1707,24 @@ content: "\f061";
 
 /*caja actividades morado*/
 
-.bck-box.bck-box-26 .bck-title{
+.bck-box.bck-box-26 .bck-title {
+    background: #ffffff;
+    width: fit-content;
     color: #AA228C;
     font-weight: 600;
-    text-align: left;
+    padding: 8px;
+    font-size: 2.1rem;
+    z-index: 100;
+    position: relative;
     margin-left: 20px;
-    margin-bottom: 3px;
-
+    margin-bottom: -14px;
 }
 
 .bck-box.bck-box-26 .bck-content {
     background-color: #fff;
     padding: 20px;
+    position: relative;
+    z-index: 1;
     border-left: 2px solid #9665AB;
     border-right: 2px solid #9665AB;
     border-bottom: 2px solid #9665AB;
@@ -1752,7 +1751,7 @@ content: "\f061";
     z-index: 112;
     font-size: 2rem;
     position: relative;
-border: 0;
+    border: 0;
 }
 
 .bck-box.bck-box-29 .bck-content {
