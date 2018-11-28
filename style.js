@@ -72,6 +72,7 @@
 				{ name: 'Caja desafio morado', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-29' } },
 				{ name: 'Caja Actividades morado', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-26' } },
 				{ name: 'Caja título gris', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-2' } },
+				{ name: 'Caja Fondo blanco', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-5' } },
 				{ name: 'titu morado Fondo blanco', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-15' } },
 				{ name: 'titu formacion Fondo blanco', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-32' } },
 				{ name: 'Caja comprensión', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-8' } },
