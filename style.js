@@ -32,6 +32,7 @@
 				{ name: 'form ciervoybuitre', element: 'h3', attributes: { 'class': 'bck-title28'} },
 				{ name: 'epa', element: 'h3', attributes: { 'class': 'bck-title30'} },
 				{ name: 'obj derecha titulo', element: 'h3', attributes: { 'class': 'bck-title37'} },
+				{ name: 'obj derecha morado', element: 'h3', attributes: { 'class': 'bck-title38'} },
 				
 
 				{ name: 'morado', element: 'span', attributes: { 'class': 'bck-morado'} },
