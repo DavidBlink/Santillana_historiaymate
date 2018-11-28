@@ -101,6 +101,11 @@ body {
     background-color: #fff;
 }
 
+li img {
+    vertical-align: top;
+}
+
+
 h3 {
     margin-bottom: 15px;
 }
