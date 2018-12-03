@@ -824,6 +824,36 @@ body:not(.android) .slider-control:not([disabled]):not(.disabled):hover {
 }
 
 
+/*flecha azul*/
+
+.bck-title1 {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 600;
+    display: inline-block;
+    position: relative;
+    background: #0080C6;
+    padding: 7px 30px 7px 60px;
+    border-radius: 0px 15px 0px 0px;
+}
+
+.bck-title1:before {
+    content: "\f063";
+    font-family: FontAwesome;
+    display: inline-block;
+    background-color: #ffffff;
+    color: #0080C6;
+    border-radius: 50%;
+    padding: 0px;
+    font-weight: 100;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 15px;
+    text-align: center;
+}
+
+
 /*Titu morado flecha*/
 
 .bck-title14 {
@@ -855,6 +885,16 @@ body:not(.android) .slider-control:not([disabled]):not(.disabled):hover {
     font-weight: 600;
     color: #9665AB;
 }
+
+
+/*titulo azul*/
+
+.bck-title17 {
+    font-size: 2.9rem;
+    font-weight: bold;
+    color: #007bc2;
+}
+
 
 /*paso gris*/
 
@@ -1103,8 +1143,13 @@ body:not(.android) .slider-control:not([disabled]):not(.disabled):hover {
 
 
 .bck-azul {
-    color: #007bc2;
+    color: #0080C6;
     font-weight: 600;
+}
+
+
+.bck-azul-gris {
+    color: #7192B3;
 }
 
 .bck-rojo {
@@ -1117,6 +1162,18 @@ body:not(.android) .slider-control:not([disabled]):not(.disabled):hover {
     border-radius: 50%;
     color: #ffffff;
     padding: 1px 6px 1px 7px;
+}
+
+.bck-fondoazulclaro {
+    background-color: #F08162;
+    width: fit-content;
+    width: -moz-fit-content;
+    color: #ffffff;
+    border-radius: 5px 5px 0px 5px;
+    font-weight: 700;
+    font-size: 1.8rem;
+    padding: 3px 5px 3px 5px;
+    margin-bottom: 10px;
 }
 
 .bck-circuloverde {
@@ -1832,6 +1889,21 @@ body:not(.android) .slider-control:not([disabled]):not(.disabled):hover {
     background-color: #FFF2E3;
     padding: 20px 30px;
     border-top: 1px solid #9665AB;
+}
+
+
+/*caja bordetop azul*/
+
+.bck-box.bck-box-3 {
+    position: relative;
+    top: -20px;
+    left: 0;
+}
+
+.bck-box.bck-box-3 .bck-content {
+    background-color: #FFF2E3;
+    padding: 20px 30px;
+    border-top: 1px solid #0080C6;
 }
 
 
