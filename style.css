@@ -737,6 +737,7 @@ body:not(.android) .slider-control:not([disabled]):not(.disabled):hover {
     position: static;
     margin: 0px;
     cursor: pointer;
+    display: none;
 }
 /**/
 
