@@ -42,6 +42,13 @@ body {
 
 #actividad .carousel-inner .item-container {
     font-family: HelveticaNeueLTStd-Roman;
+    background-image: none;
+    max-width: 1200px;
+    box-shadow: rgba(0,0,0,0.298039) 0 0px 0px;
+    margin: 0px auto 30px;
+    padding: 0px;
+    padding-bottom: 90px;
+    position: relative;
 }
 
 
@@ -99,6 +106,7 @@ body {
 
 #swipeview-slider > div {
     background-color: #fff;
+    padding-top: 60px;
 }
 
 li img {
