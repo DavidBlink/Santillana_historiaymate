@@ -2463,6 +2463,18 @@ td {
 /**/
 /****/
 
+@media screen and (max-width: 580px) {
+.slider-control.right {
+    right: -25px;
+}
+
+.slider-control.left {
+    left: -25px;
+}
+
+}
+
+
 @media screen and (max-width: 960px) {
     .content_type_clase_Santillana_historiaymate_demo .Santillana_historiaymate_demo-navbar .dropdown{
         display: none;
