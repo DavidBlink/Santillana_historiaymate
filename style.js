@@ -41,6 +41,7 @@
 				{ name: 'azul claro', element: 'span', attributes: { 'class': 'bck-azulclaro'} },
 				{ name: 'Énfasis Naranja', element: 'span', attributes: { 'class': 'bck-enfasis-naranja'} },
 				{ name: 'azul', element: 'span', attributes: { 'class': 'bck-azul'} },
+				{ name: 'azul-gris', element: 'span', attributes: { 'class': 'bck-azul-gris'} },
 				{ name: 'rojo', element: 'span', attributes: { 'class': 'bck-rojo'} },
 				{ name: 'circulo naranja', element: 'span', attributes: { 'class': 'bck-naranja'} },
 				{ name: 'circulo verde', element: 'span', attributes: { 'class': 'bck-circuloverde'} },
