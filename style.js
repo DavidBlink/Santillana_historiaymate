@@ -16,6 +16,7 @@
 				
 
 				{ name: 'Flecha morado', element: 'h3', attributes: { 'class': 'bck-title13'} },
+				{ name: 'Flecha azul', element: 'h3', attributes: { 'class': 'bck-title1'} },
 				{ name: 'Titulo morado', element: 'h3', attributes: { 'class': 'bck-title11'} },
 				{ name: 'Titulo azul', element: 'h3', attributes: { 'class': 'bck-title17'} },
 				{ name: 'Titu morado flecha', element: 'h3', attributes: { 'class': 'bck-title14'} },
