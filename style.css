@@ -1,4 +1,4 @@
-/*General CSS SANTILLANA CHILE*/
+/*CSS SANTILLANA HISTORIA Y MATEMATICAS*/
 
 /* Fonts */
 
@@ -1856,6 +1856,20 @@ body:not(.android) .slider-control:not([disabled]):not(.disabled):hover {
     margin-top: -15px;
 }
 
+
+/*caja azul-claro*/
+
+.bck-box.bck-box-6 .bck-title {
+    background-color: none;
+    color: none;
+}
+
+.bck-box.bck-box-6 .bck-content {
+    background-color: #D8E3F4;
+    border-radius: 0px 20px 20px 20px;
+    padding: 10px 20px 10px 20px;
+    font-size: 1.8rem;
+}
 
 
 
