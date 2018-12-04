@@ -62,6 +62,11 @@
 				{ name: 'Lis morado numero', element: 'ol', attributes: { 'class': 'bck-ol-5' } },
 				{ name: 'Lis minuscula morado', element: 'ol', attributes: { 'class': 'bck-ol-8' } },
 				{ name: 'Lis mayuscula morado', element: 'ol', attributes: { 'class': 'bck-ol-9' } },
+				{ name: 'Lis azul', element: 'ol', attributes: { 'class': 'bck-ol-10' } },
+				{ name: 'Lis azul borde', element: 'ol', attributes: { 'class': 'bck-ol-11' } },
+				{ name: 'Lis azul numero', element: 'ol', attributes: { 'class': 'bck-ol-12' } },
+				{ name: 'Lis minuscula azul', element: 'ol', attributes: { 'class': 'bck-ol-13' } },
+				{ name: 'Lis mayuscula azul', element: 'ol', attributes: { 'class': 'bck-ol-14' } },
 
 
 				{ name: 'Lista Desordenada', element: 'ul', attributes: { 'class': 'bck-ul'} },
@@ -70,6 +75,7 @@
 				{ name: 'Lista Des morado', element: 'ul', attributes: { 'class': 'bck-ul-6'} },
 				{ name: 'Lista Des amarilla', element: 'ul', attributes: { 'class': 'bck-ul-4'} },
 				{ name: 'Lista Des azul', element: 'ul', attributes: { 'class': 'bck-ul-3'} },
+				{ name: 'Lista Des azul-cielo', element: 'ul', attributes: { 'class': 'bck-ul-5'} },
 				{ name: 'Lista Cuadrada morado', element: 'ul', attributes: { 'class': 'bck-ul-8'} },			
 
 
