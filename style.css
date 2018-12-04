@@ -1192,7 +1192,6 @@ body:not(.android) .slider-control:not([disabled]):not(.disabled):hover {
 
 .bck-azul-cielo {
     color: #1ACCE9;
-    font-weight: 600;
 }
 
 
@@ -1214,7 +1213,6 @@ body:not(.android) .slider-control:not([disabled]):not(.disabled):hover {
     width: -moz-fit-content;
     color: #ffffff;
     border-radius: 8px 8px 0px 8px;
-    font-weight: 600;
     font-size: 1.8rem;
     padding: 5px 10px 5px 10px;
 }
