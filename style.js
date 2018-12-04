@@ -20,6 +20,7 @@
 				{ name: 'Titulo morado', element: 'h3', attributes: { 'class': 'bck-title11'} },
 				{ name: 'Titulo azul', element: 'h3', attributes: { 'class': 'bck-title17'} },
 				{ name: 'Titu morado flecha', element: 'h3', attributes: { 'class': 'bck-title14'} },
+				{ name: 'Titu azul flecha', element: 'h3', attributes: { 'class': 'bck-title6'} },
 				{ name: 'Titulo gris', element: 'h3', attributes: { 'class': 'bck-title8'} },
 				{ name: 'blanco fondo verde claro', element: 'h3', attributes: { 'class': 'bck-title4'} },
 				{ name: 'paso gris', element: 'h3', attributes: { 'class': 'bck-title7'} },
