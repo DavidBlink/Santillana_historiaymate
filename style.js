@@ -121,9 +121,9 @@
 
 
 				
-				{ name: 'Desplegable', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'Santillana_historiaymate_demo-dropdown' } },
+				{ name: 'Desplegable naranja', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'Santillana_historiaymate_demo-dropdown' } },
 				{ name: 'Desplegable morado', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'Santillana_historiaymate_demo-dropdown-2' } },
-
+				{ name: 'Desplegable azul', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'Santillana_historiaymate_demo-dropdown-3' } },
 
 				{ name: 'Icono Antes', element: 'span', attributes: { 'class': 'icon icon-antes' } },
 				{ name: 'Icono Durante', element: 'span', attributes: { 'class': 'icon icon-durante' } },
