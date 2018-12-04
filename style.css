@@ -1604,7 +1604,7 @@ body:not(.android) .slider-control:not([disabled]):not(.disabled):hover {
     content: counter(bck-li-counter)".";
     position: absolute;
     text-align: center;
-    color: #9e61a4;
+    color: #0080C6;
     margin-left: -30px;
 }
 
@@ -1781,7 +1781,6 @@ body:not(.android) .slider-control:not([disabled]):not(.disabled):hover {
     border-radius: 50%;
 }
 
-
 /*lista des azul-cielo*/
 #actividad .content .cke_contents ul .bck-ul-5 li,
 #actividad .content .texto_curso ul .bck-ul-5 li,
@@ -1805,8 +1804,6 @@ body:not(.android) .slider-control:not([disabled]):not(.disabled):hover {
     border-radius: 50%;
 }
 
-
-
 /*lista des amarilla*/
 #actividad .content .cke_contents ul .bck-ul-4 li,
 #actividad .content .texto_curso ul .bck-ul-4 li,
@@ -1829,8 +1826,6 @@ body:not(.android) .slider-control:not([disabled]):not(.disabled):hover {
     margin-bottom: 2px;
     border-radius: 50%;
 }
-
-
 
 /*lista des morado*/
 #actividad .content .cke_contents ul .bck-ul-6 li,
