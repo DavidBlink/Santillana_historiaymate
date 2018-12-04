@@ -1666,7 +1666,7 @@ body:not(.android) .slider-control:not([disabled]):not(.disabled):hover {
     content: counter(bck-li-counter, upper-alpha)".";
     position: absolute;
     text-align: center;
-    color: orange;
+    color: #0080C6;
     margin-left: -30px;
     line-height: normal;
 }
