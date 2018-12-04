@@ -2811,7 +2811,7 @@ td {
     color: white;
 }
 
-/*Desplegable 1*/
+/*Desplegable naranja*/
 .bck-dropdown.Santillana_historiaymate_demo-dropdown {
     background-color: #FBA81C;
 }
@@ -2826,7 +2826,7 @@ td {
 
 /**/
 
-/*Desplegable 2*/
+/*Desplegable morado*/
 .bck-dropdown.Santillana_historiaymate_demo-dropdown-2 {
     background-color: #B82088;
 }
@@ -2840,6 +2840,24 @@ td {
 }
 
 .edit .Santillana_historiaymate_demo-dropdown-2 .bck-dropdown-content {
+    color: white;
+}
+
+
+/*Desplegable azul*/
+.bck-dropdown.Santillana_historiaymate_demo-dropdown-3 {
+    background-color: #3E91CF;
+}
+
+.Santillana_historiaymate_demo-dropdown-3 .bck-dropdown-icon {
+    background-color: #3E91CF;
+}
+
+.Santillana_historiaymate_demo-dropdown-3 .bck-dropdown-content {
+    background-color: #ffffff;
+}
+
+.edit .Santillana_historiaymate_demo-dropdown-3 .bck-dropdown-content {
     color: white;
 }
 
