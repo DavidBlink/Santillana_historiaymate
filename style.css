@@ -38,6 +38,10 @@ body {
 
 }
 
+strong {
+    font-weight: 700;
+}
+
 
 
 #actividad .carousel-inner .item-container {
@@ -228,7 +232,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover {
 }
 
 #actividad .class_slide {
-    padding: 80px 97px 0px;
+    padding: 60px 97px 0px;
 }
 
 body.is_app #actividad .class_slide {
@@ -590,7 +594,7 @@ body.is_app .Santillana_historiaymate_demo-navbar.ocultar {
 
 .content_type_clase_Santillana_historiaymate_demo .slider-indicators li.active,
 .content_type_clase_Santillana_historiaymate_demo .Santillana_historiaymate_demo-navbar li:hover {
-    background-color: #D9D2F1;
+    background-color: #d8d8d8;
 }
 
 .content_type_clase_Santillana_historiaymate_demo .Santillana_historiaymate_demo-navbar .dropdown {
