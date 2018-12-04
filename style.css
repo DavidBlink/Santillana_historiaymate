@@ -807,7 +807,7 @@ body:not(.android) .slider-control:not([disabled]):not(.disabled):hover {
     display: inline-block;
     position: relative;
     background: #9665AB;
-    padding: 7px 30px 7px 60px;
+    padding: 7px 30px 10px 60px;
     border-radius: 0px 15px 0px 0px;
 }
 
@@ -837,7 +837,7 @@ body:not(.android) .slider-control:not([disabled]):not(.disabled):hover {
     display: inline-block;
     position: relative;
     background: #0080C6;
-    padding: 7px 30px 7px 60px;
+    padding: 7px 30px 10px 60px;
     border-radius: 0px 15px 0px 0px;
 }
 
