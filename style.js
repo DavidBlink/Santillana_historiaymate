@@ -89,6 +89,7 @@
 				{ name: 'Caja título gris', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-2' } },
 				{ name: 'Caja Fondo blanco', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-5' } },
 				{ name: 'Caja azul-claro', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-6' } },
+				{ name: 'Caja piensa-azul', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-27' } },
 				{ name: 'titu morado Fondo blanco', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-15' } },
 				{ name: 'titu formacion Fondo blanco', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-32' } },
 				{ name: 'Caja comprensión', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-8' } },
