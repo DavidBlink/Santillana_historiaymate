@@ -2201,6 +2201,20 @@ body:not(.android) .slider-control:not([disabled]):not(.disabled):hover {
     border-radius: 15px;
 }
 
+/*caja fondo claro*/
+.bck-box.bck-box-30 {
+    position: relative;
+    top: -20px;
+    left: 0;
+}
+
+.bck-box.bck-box-30 .bck-content {
+    background-color: #FFF2E3;
+    padding: 20px 30px;
+    border-top: 0px;
+}
+
+
 
 /*caja bordetop morado*/
 
