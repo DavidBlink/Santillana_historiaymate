@@ -878,6 +878,32 @@ body:not(.android) .slider-control:not([disabled]):not(.disabled):hover {
     text-align: center;
 }
 
+/*Titu azul flecha*/
+
+.bck-title6 {
+    color: #12BECF;
+    font-size: 2rem;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+}
+
+.bck-title6:before {
+    content: "\f061";
+    font-family: FontAwesome;
+    display: inline-block;
+    color: #12BECF;
+    padding: 0px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 0px;
+    text-align: center;
+}
+
+
+
 /*titulo morado*/
 
 .bck-title11 {
