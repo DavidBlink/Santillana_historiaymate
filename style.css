@@ -903,6 +903,14 @@ body:not(.android) .slider-control:not([disabled]):not(.disabled):hover {
 }
 
 
+/*titulo naranja actividades*/
+
+.bck-title9 {
+    font-size: 3.6rem;
+    font-weight: 700;
+    color: #FAA61A;
+}
+
 
 /*titulo morado*/
 
