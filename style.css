@@ -1150,7 +1150,14 @@ body:not(.android) .slider-control:not([disabled]):not(.disabled):hover {
 
 .bck-azul-gris {
     color: #7192B3;
+    font-weight: 600;
 }
+
+.bck-azul-cielo {
+    color: #1ACCE9;
+    font-weight: 600;
+}
+
 
 .bck-rojo {
     color: #e30613;
@@ -1467,8 +1474,6 @@ body:not(.android) .slider-control:not([disabled]):not(.disabled):hover {
     font-size: 1.8rem;
 }
 
-
-
 /*lis minuscula morado*/
 
 #actividad .content .cke_contents .bck-ol-8,
@@ -1532,6 +1537,177 @@ body:not(.android) .slider-control:not([disabled]):not(.disabled):hover {
     color: #9e61a4;
     margin-left: -30px;
     line-height: normal;
+}
+
+
+/*listas azules*/
+
+/*lista azul*/
+#actividad .content .cke_contents .bck-ol-10,
+#actividad .content .texto_curso .bck-ol-10,
+#actividad .content .workspace ol li .bck-ol-10 {
+    list-style-type: none;
+    counter-reset: bck-li-counter;
+}
+
+#actividad .content .texto_curso .bck-ol-10 li,
+#actividad .content .cke_contents .bck-ol-10 li,
+#actividad .popover-content .bck-ol-10 li,
+#actividad .content .workspace ol li .bck-ol-10 li {
+    position: relative;
+    z-index: 0;
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+#actividad .content .cke_contents .bck-ol-10 li:before,
+#actividad .content .texto_curso ol.bck-ol-10 li:before,
+#actividad .popover-content ol.bck-ol-10 li:before,
+#actividad .content .workspace ol li .bck-ol-10 li:before {
+    content: counter(bck-li-counter)" ";
+    position: absolute;
+    background: #12BECF;
+    width: 25px;
+    height: 25px;
+    line-height: unset;
+    text-align: center;
+    margin-left: -37px;
+    color: #fff;
+    border-radius: 8px 8px 0px 8px;
+    font-size: 1.8rem;
+}
+
+
+/*lista azul numero*/
+
+#actividad .content .cke_contents .bck-ol-12,
+#actividad .content .texto_curso .bck-ol-12,
+#actividad .content .workspace ol li .bck-ol-12 {
+    list-style-type: none;
+    counter-reset: bck-li-counter;
+}
+
+
+#actividad .content .cke_contents .bck-ol-12 li,
+#actividad .content .texto_curso .bck-ol-12 li,
+#actividad .popover-content .bck-ol-12 li, 
+#actividad .content .workspace ol li .bck-ol-12 li {
+    position: relative;
+    z-index: 0;
+    margin-left: 20px;
+}
+
+#actividad .content .cke_contents .bck-ol-12 li:before,
+#actividad .content .texto_curso ol.bck-ol-12 li:before, 
+#actividad .popover-content ol.bck-ol-12 li:before, 
+#actividad .content .workspace ol li .bck-ol-12 li:before {
+    content: counter(bck-li-counter)".";
+    position: absolute;
+    text-align: center;
+    color: #9e61a4;
+    margin-left: -30px;
+}
+
+
+/*lis minuscula azul*/
+
+#actividad .content .cke_contents .bck-ol-13,
+#actividad .content .texto_curso .bck-ol-13,
+#actividad .content .workspace ol li .bck-ol-13 {
+    list-style-type: none;
+    counter-reset: bck-li-counter;
+}
+
+#actividad .content .cke_contents .bck-ol-13 li,
+#actividad .content .texto_curso .bck-ol-13 li,
+#actividad .popover-content .bck-ol-13 li, 
+#actividad .content .workspace ol li .bck-ol-13 li {
+    position: relative;
+    z-index: 0;
+    margin-left: 20px;
+}
+
+#actividad .content .cke_contents .bck-ol-13 li:before,
+#actividad .content .texto_curso ol.bck-ol-13 li:before, 
+#actividad .popover-content ol.bck-ol-13 li:before, 
+#actividad .content .workspace ol li .bck-ol-13 li:before {
+    content: counter(bck-li-counter, lower-alpha)".";
+    position: absolute;
+    text-align: center;
+    color: #12BECF;
+    margin-left: -30px;
+    line-height: normal;
+}
+
+
+/*lis mayuscula azul*/
+
+#actividad .content .cke_contents .bck-ol-14,
+#actividad .content .texto_curso .bck-ol-14,
+#actividad .content .workspace ol li .bck-ol-14 {
+    list-style-type: none;
+    counter-reset: bck-li-counter;
+}
+
+
+#actividad .content .cke_contents .bck-ol-14 li,
+#actividad .content .texto_curso .bck-ol-14 li,
+#actividad .popover-content .bck-ol-14 li, 
+#actividad .content .workspace ol li .bck-ol-14 li {
+    position: relative;
+    z-index: 0;
+    margin-left: 20px;
+}
+
+#actividad .content .cke_contents .bck-ol-14 li:before,
+#actividad .content .texto_curso ol.bck-ol-14 li:before, 
+#actividad .popover-content ol.bck-ol-14 li:before, 
+#actividad .content .workspace ol li .bck-ol-14 li:before {
+    content: counter(bck-li-counter, upper-alpha)".";
+    position: absolute;
+    text-align: center;
+    color: orange;
+    margin-left: -30px;
+    line-height: normal;
+}
+
+
+/*Lista azul borde*/
+
+#actividad .content .cke_contents .bck-ol-11,
+#actividad .content .texto_curso .bck-ol-11,
+#actividad .content .workspace ol li .bck-ol-11 {
+    list-style-type: none;
+    counter-reset: bck-li-counter;
+}
+
+#actividad .content .cke_contents .bck-ol-11 li,
+#actividad .content .texto_curso .bck-ol-11 li,
+#actividad .popover-content .bck-ol-11 li,
+#actividad .content .workspace ol li .bck-ol-11 li {
+    list-style-type: none;
+    margin-left: 5px;
+    position: relative;
+    z-index: 0;
+}
+
+
+#actividad .content .cke_contents .bck-ol-11 li:before,
+#actividad .content .texto_curso ol.bck-ol-11 li:before,
+#actividad .popover-content ol.bck-ol-11 li:before,
+#actividad .content .workspace ol li .bck-ol-11 li:before {
+    content: counter(bck-li-counter)" ";
+    position: absolute;
+    background: #fff;
+    border: 1.5px solid #72A6D9;
+    width: 25px;
+    height: 25px;
+    line-height: normal;
+    text-align: center;
+    margin-left: -37px;
+    color: #72A6D9;
+    border-radius: 8px 8px 0px 8px;
+    font-size: 1.8rem;
 }
 
 
@@ -1604,6 +1780,31 @@ body:not(.android) .slider-control:not([disabled]):not(.disabled):hover {
     margin-bottom: 2px;
     border-radius: 50%;
 }
+
+
+/*lista des azul-cielo*/
+#actividad .content .cke_contents ul .bck-ul-5 li,
+#actividad .content .texto_curso ul .bck-ul-5 li,
+#actividad .content .texto_curso ul .bck-ul-5 li,
+#actividad .content .workspace ul .bck-ul-5 li {
+    list-style: none;
+}
+
+#actividad .content .cke_contents ul .bck-ul-5 li:before,
+#actividad .content .texto_curso ul .bck-ul-5 li:before,
+#actividad .content .texto_curso .bck-ul-5 li:before,
+#actividad .content .workspace ul li .bck-ul-5 li:before {
+    content: "";
+    position: absolute;
+    height: 6px;
+    width: 6px;
+    background-color: #12BECF;
+    margin-left: -15px;
+    margin-right: 7px;
+    margin-bottom: 2px;
+    border-radius: 50%;
+}
+
 
 
 /*lista des amarilla*/
@@ -1860,6 +2061,33 @@ body:not(.android) .slider-control:not([disabled]):not(.disabled):hover {
     background-color: #fff;
     padding: 20px;
     border: 2px solid #AA228C;
+    text-align: left;
+    border-radius: 15px;
+    z-index: 1;
+}
+
+
+/*caja bordes azul*/
+.bck-box.bck-box-28 .bck-title {
+    color: #0080C6;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 20px;
+    margin-bottom: -15px;
+    background-color: #ffffff;
+    border-radius: 5px 5px 0px 5px;
+    width: fit-content;
+    padding: 2px 10px 2px 10px;
+    z-index: 112;
+    font-size: 2rem;
+    position: relative;
+    border: 0;
+}
+
+.bck-box.bck-box-28 .bck-content {
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid #C1D3ED;
     text-align: left;
     border-radius: 15px;
     z-index: 1;
