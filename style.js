@@ -33,6 +33,7 @@
 				{ name: 'paso rosa', element: 'h3', attributes: { 'class': 'bck-title40'} },
 				{ name: 'Saber hacer', element: 'h3', attributes: { 'class': 'bck-title24'} },
 				{ name: 'demuestra-morado', element: 'h3', attributes: { 'class': 'bck-title23'} },
+				{ name: 'Titulo fondo azul cielo', element: 'h3', attributes: { 'class': 'bck-title25'} },
 				{ name: 'form ciervoybuitre', element: 'h3', attributes: { 'class': 'bck-title28'} },
 				{ name: 'epa', element: 'h3', attributes: { 'class': 'bck-title30'} },
 				{ name: 'obj derecha titulo', element: 'h3', attributes: { 'class': 'bck-title37'} },
