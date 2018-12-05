@@ -1049,6 +1049,20 @@ body:not(.android) .slider-control:not([disabled]):not(.disabled):hover {
 }
 
 
+/*titulo fondo azul cielo*/
+.bck-title23 {
+    width: fit-content;
+    width: -moz-fit-content;
+    color: #fff;
+    background: #12BECF;
+    border-radius: 10px 10px 0px 10px;
+    padding: 4px 7px;
+    font-size: 2rem;
+}
+
+
+
+
 /*titulo form-ciervoybuitre*/
 
 .bck-title28 {
@@ -2123,6 +2137,20 @@ body:not(.android) .slider-control:not([disabled]):not(.disabled):hover {
     z-index: 1;
 }
 
+
+/*caja bordes azul-cielo*/
+
+.bck-box.bck-box-31 .bck-content {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #12becf;
+    text-align: left;
+    border-radius: 15px 0px;
+    z-index: 1;
+}
+
+
+
 /*caja piensa-azul*/
 .bck-box.bck-box-27 .bck-title {
     color: #fff;
@@ -2978,19 +3006,7 @@ td {
 
 @media screen and (max-width: 450px) { 
 
-.bck-title25 {
-    border-left: 10px solid #f8a800;
-    border-top: 10px solid #f8a800;
-    border-right: 20px solid #f8a800;
-    border-bottom: 0.5px solid #f8a800;
-    background-color: #ffffff;
-    color: #f8a800;
-    width: fit-content;
-    width: -moz-fit-content;
-    padding: 5px 20px 1px 20px;
-    font-size: 3.3rem;
-    font-weight: 600;
-}
+
 
 .bck-box.bck-box-13 .bck-title {
     background-image: url(imagenes/formacion-completo.jpg);
@@ -3040,9 +3056,6 @@ td {
     font-size: 2rem;
 }
 
-.bck-title25 {
-    border-right: 30px solid #f8a800;
- }
 
 .bck-box.bck-box-17 .bck-title {
     background-image: url(imagenes/formacion-completo.jpg);
