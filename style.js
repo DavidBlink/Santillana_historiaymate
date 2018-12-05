@@ -89,6 +89,7 @@
 				{ name: 'Caja bordetop azul', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-3' } },
 				{ name: 'Caja desafio morado', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-29' } },
 				{ name: 'Caja bordes azul', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-28' } },
+				{ name: 'Caja bordes azul-cielo', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-31' } },
 				{ name: 'Caja Actividades morado', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-26' } },
 				{ name: 'Caja título gris', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-2' } },
 				{ name: 'Caja Fondo blanco', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-5' } },
