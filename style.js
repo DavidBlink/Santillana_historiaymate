@@ -48,6 +48,7 @@
 				{ name: 'azul-cielo', element: 'span', attributes: { 'class': 'bck-azul-cielo'} },
 				{ name: 'rojo', element: 'span', attributes: { 'class': 'bck-rojo'} },
 				{ name: 'fondo azul claro', element: 'span', attributes: { 'class': 'bck-fondoazulclaro'} },
+				{ name: 'fondo coral', element: 'span', attributes: { 'class': 'bck-coral'} },
 				{ name: 'circulo naranja', element: 'span', attributes: { 'class': 'bck-naranja'} },
 				{ name: 'circulo verde', element: 'span', attributes: { 'class': 'bck-circuloverde'} },
 				{ name: 'circulo rojo', element: 'span', attributes: { 'class': 'bck-circulorojo'} },
