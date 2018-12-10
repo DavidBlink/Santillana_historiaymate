@@ -2426,8 +2426,6 @@ body:not(.android) .slider-control:not([disabled]):not(.disabled):hover {
 .bck-box.bck-box-11 .bck-title {
     background-color: #baba0f;
     color: #ffffff;
-    width: fit-content;
-    width: -moz-fit-content;
     font-weight: 600;
     padding: 10px 30px 5px 30px;
     border-radius: 0px 0px 20px 0px;
