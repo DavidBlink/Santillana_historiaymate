@@ -2970,8 +2970,15 @@ td {
 @media screen and (max-width: 768px) {
 
     #actividad .carousel-inner .class_slide {
-        padding: 40px 20px 0px;
+        padding: 10px 20px 0px;
     }
+
+
+#swipeview-slider > div {
+    background-color: #fff;
+    padding-top: 100px;
+}
+
 
     .navigator {
         padding: 0px 20px;
