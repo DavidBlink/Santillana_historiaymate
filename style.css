@@ -311,6 +311,10 @@ fieldset[disabled] .content_type_clase_Santillana_historiaymate_demo .slide_main
 }
 
 
+#indice .unit-content .actividades .title-buttons {
+    background-color: #8965a700;
+}
+
 
 #indice .unit-content .actividades .item .acceso {
     cursor: pointer;
@@ -2639,7 +2643,7 @@ background-image: url(imagenes/despuesbuitretexto.png);
 }
 
 table td.bck-td-1 {
-    background-color: #a1c037;
+   
 }
 
 /*tabla y celda morado*/
