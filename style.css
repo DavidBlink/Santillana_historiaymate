@@ -1235,6 +1235,20 @@ body:not(.android) .slider-control:not([disabled]):not(.disabled):hover {
     padding: 5px 10px 5px 10px;
 }
 
+
+.bck-coral {
+    background-color: #F08162;
+    width: fit-content;
+    width: -moz-fit-content;
+    color: #ffffff;
+    border-radius: 0px 5px 0px 5px;
+    font-weight: 600;
+    font-size: 1.8rem;
+    padding: 2px 4px 2px 4px;
+    margin-bottom: 10px;
+}
+
+
 .bck-circuloverde {
     background:  #19763a;
     border-radius: 50%;
